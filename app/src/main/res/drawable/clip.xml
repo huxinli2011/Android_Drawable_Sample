@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipOrientation="horizontal"
+    android:drawable="@mipmap/like"
+    android:gravity="center">
+</clip>
+
+<!--
+clipOrientation 控制裁减的方向
+gravity 控制从哪里开始裁减
+-->

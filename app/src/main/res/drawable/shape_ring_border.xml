@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圆环-仅有边框 -->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="20dp"
+    android:thickness="16dp"
+    android:shape="ring"
+    android:useLevel="false">
+    <!--
+    innerRadius 圆环的内半径，和android:innerRadiusRatio同时存在时，以android:innerRadius为准
+    thickness 圆环的厚度，即外半径减去内半径的大小，和android:innerRadiusRatio同时存在时，以android:thickness为准
+    innerRadiusRatio 内半径占整个Drawable宽度的比例，默认为9，如果为n，那么内半径=宽度/n
+    thicknessRatio 厚度占整个Drawable宽度的比例，默认值为3。如果为n,那么厚度=宽度/n
+    android:useLevel="false"必须是false  ,一般都应该使用flase,否则有可能无法达到预期的显示效果，除非它被当作LevelListDrawable来使用
+    -->
+
+    <size
+        android:width="100dp"
+        android:height="100dp"/>
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/red"/>
+
+</shape>

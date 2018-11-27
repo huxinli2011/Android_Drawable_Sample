@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="自定义波纹效果"
+            android:background="@drawable/ripple_drawable"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="自定义波纹效果2"
+            android:background="@drawable/ripple_drawable2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="自定义波纹效果3"
+            android:background="@drawable/ripple_drawable3"/>
+
+
+    </LinearLayout>
+</ScrollView>

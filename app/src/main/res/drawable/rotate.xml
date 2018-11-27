@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="180"
+    android:visible="true">
+
+    <bitmap android:gravity="center"
+        android:src="@mipmap/like"/>
+</rotate>
+
+<!--pivotX 和 pivotY 控制旋转的中心，我们定义为 50%，就是图片的中心位置。 visible 默认是 false，这里我们设置 true。-->

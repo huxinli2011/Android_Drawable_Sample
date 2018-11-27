@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圆环 -->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="4"
+    android:shape="ring"
+    android:thickness="10dp"
+    android:useLevel="false">
+    <!--
+    innerRadiusRatio 内半径占整个Drawable宽度的比例，默认为9，如果为n，那么内半径=宽度/n
+    android:useLevel="false"必须是false-->
+
+    <size
+        android:width="100dp"
+        android:height="100dp"/>
+
+    <solid android:color="@color/red"/>
+
+</shape>
