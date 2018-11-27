@@ -1,0 +1,12 @@
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+/app.iml
+Adroid_Drawable_Sample.iml
+*.apk
+*.log
+*.iml
+.gradle-build/
+/.gradle-build/
